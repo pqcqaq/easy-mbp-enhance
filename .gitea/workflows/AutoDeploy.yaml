@@ -49,7 +49,7 @@ jobs:
           username: ${{ secrets.USER_NAME }}
           key: ${{ secrets.REMOTE_KEY }}
           port: ${{ secrets.USER_PORT }}
-          source: 'target/whitehorse-shop-backend-0.0.1-SNAPSHOT.jar'
+          source: 'target/easy-mbp-enhance-1.0.0.jar'
           target: ${{ secrets.REMOTE_DIR }}
         # ssh 到指定服务器，执行部署命令，具体 deployment.sh 的代码可以去看我之前写的 docker 部署
       - name: 运行打包命令并部署
