@@ -1,0 +1,41 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysql82:3306/easy_mbp_enhance?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    username: easy_mbp_enhance
+    password: "easy_mbp_enhance"
+  data:
+    redis:
+      host: redis72
+      password: easy_mbp_enhance
+
+server:
+  port: 8090
+
+#token密钥，token过期时间 单位是ms
+token:
+  secret: easy_mbp_enhance_easy_mbp_enhance
+  expiration: 8640000
+
+storage:
+  type: local
+  local:
+      path: /tmp/imgs
+      public: https://我是公共访问链接/
+  minio:
+    endpoint: http://123123
+    public-url: http://123123
+    accessKey: minio
+    secretKey: minio123
+    bucketName: 123123
+
+limiter:
+  enable: true
+  type: redis
+  remote-info:
+    use-proxy: true
+    user-key: X-Real-IP
+
+# 启用全局debug日志
+#services:
+#  log:
+#    debug: true
