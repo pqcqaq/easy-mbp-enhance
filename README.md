@@ -9,6 +9,7 @@
     - 一对一
     - 一对多
     - 多对多
+    - [更加优雅的数据库查询 - 前程の博客|秘密小屋 (zust.online)](https://qc-blog.zust.online/archives/1707067020337)
 
     
 
@@ -29,7 +30,20 @@
     - 必须添加`TableName`注解来指定表名
     - 可以选择继承`BaseEntity`来获得包含id，添加修改删除时间，操作人等字段，简化实体类冗余代码
 
-    
+
+
+
+- ### 完全解耦的类型转换工具
+
+    - [更加优雅的类型转换工具 - 前程の博客|秘密小屋 (zust.online)](https://qc-blog.zust.online/archives/1708864924216)
+
+
+
+- ### 方便快捷的多线程调用
+
+    - [pqcqaq/threads-utils (github.com)](https://github.com/pqcqaq/threads-utils)
+
+
 
 - ### 提供更简洁的Service调用Api
 
