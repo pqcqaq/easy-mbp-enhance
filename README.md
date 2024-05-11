@@ -114,5 +114,16 @@
               drop-table: true
         ```
 
+
+
+- ### 接口限流
+
+    - 使用教程：
+        - [pqcqaq/api-current-limiter-starter-boot3 (github.com)](https://github.com/pqcqaq/api-current-limiter-starter-boot3)
+
+
+
+
+
 - etc.....
 
