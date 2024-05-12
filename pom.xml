@@ -194,6 +194,14 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/libs/system-user-1.0.0.jar</systemPath>
         </dependency>
+        <!--    动态定时任务    -->
+        <dependency>
+            <groupId>online.zust.qcqcqc.services</groupId>
+            <artifactId>dynamic-cron-tasks</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/dynamic-cron-tasks-1.0.0.jar</systemPath>
+        </dependency>
         <!--    图片处理工具    -->
         <dependency>
             <groupId>net.coobird</groupId>
